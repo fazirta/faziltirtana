@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  @apply h-full;
+}
+
+body {
+  @apply m-0 bg-neutral-300 dark:bg-zinc-900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: 'Nunito', sans-serif;
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    @apply bg-neutral-300 dark:bg-zinc-900;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-neutral-400 transition delay-150 duration-300 dark:bg-zinc-700;
+  }
+}
+
+.resize-style::-webkit-resizer {
+  @apply hidden;
+}
+
+.bgMesh {
+  background-image: radial-gradient(
+    at 5% 5%,
+    #eeb559 0,
+    transparent 50%
+    ),
+    radial-gradient(at 95% 61%,#83f6da 0,transparent 50%),
+    radial-gradient(at 63% 3%,#e96de3 0,transparent 50%),
+    radial-gradient(at 69% 81%,#e5af52 0,transparent 50%),
+    radial-gradient(at 44% 84%,#87f2c6 0,transparent 50%),
+    radial-gradient(at 45% 38%,#68d1e3 0,transparent 50%),
+    radial-gradient(at 74% 58%,#f34fa6 0,transparent 50%);
+}

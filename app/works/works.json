@@ -1,0 +1,38 @@
+[
+  {
+    "href": "https://2022.ictman4jkt.com/itech",
+    "imgSrc": "work_imgs/I-TECH-2022/I-TECH-2022.png",
+    "title": "I-TECH 2022",
+    "description": "Web application for I-TECH 2022"
+  },
+  {
+    "href": "https://bofman4.id/",
+    "imgSrc": "work_imgs/BOFMAN4/BOFMAN4.png",
+    "title": "BOFMAN4",
+    "description": "Website of BOFMAN4 part 13"
+  },
+  {
+    "href": "https://e-vote.ictman4jkt.com/",
+    "imgSrc": "work_imgs/E-Vote/E-Vote.png",
+    "title": "E-Vote",
+    "description": "Electronic voting web application for MPK MAN 4 Jakarta 2022"
+  },
+  {
+    "href": "https://2022.ictman4jkt.com/",
+    "imgSrc": "work_imgs/ICT/ICT.png",
+    "title": "ICT",
+    "description": "Website of ICT MAN 4 Jakarta 2022"
+  },
+  {
+    "href": "https://myreactfinalproject.netlify.app/",
+    "imgSrc": "work_imgs/Sanbercode/Sanbercode.png",
+    "title": "Sanbercode",
+    "description": "Movie review web application for final project of Sanbercode ReactJS course"
+  },
+  {
+    "href": "https://eroice.ictman4jkt.com/",
+    "imgSrc": "work_imgs/Eroice/Eroice.png",
+    "title": "Eroice",
+    "description": "Story writing and sharing web application"
+  }
+]
